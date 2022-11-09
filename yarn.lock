@@ -2705,6 +2705,7 @@ __metadata:
     "@slidev/theme-apple-basic": ^0.20.0
     "@slidev/theme-default": "*"
     "@slidev/theme-seriph": "*"
+    playwright-chromium: ^1.27.1
     rescript: ^10.0.1
     serve: ^14.1.1
     slidev-theme-geist: ^0.8.1
@@ -4745,6 +4746,26 @@ __metadata:
   version: 1.4.0
   resolution: "plantuml-encoder@npm:1.4.0"
   checksum: d0ad77d960a8b092d8cfe9bdefc7a482ec073ecc686a92e482a8cbe35183d42433e79efd61fe24859ebd3219859d7fe022d49aaeec8827d46fde2ae4e7dba461
+  languageName: node
+  linkType: hard
+
+"playwright-chromium@npm:^1.27.1":
+  version: 1.27.1
+  resolution: "playwright-chromium@npm:1.27.1"
+  dependencies:
+    playwright-core: 1.27.1
+  bin:
+    playwright: cli.js
+  checksum: 2ea86a8f7562333bf6bcb8fc7485bd9b084d067087e9a0d0aeaaa116b16cbbd3a7d6f14f509e943a962415a415ee26ef232a51317f0d4d966d0ca55f9de4bdc1
+  languageName: node
+  linkType: hard
+
+"playwright-core@npm:1.27.1":
+  version: 1.27.1
+  resolution: "playwright-core@npm:1.27.1"
+  bin:
+    playwright: cli.js
+  checksum: fd65d3eb29978e0e7a755158625e8922a66ca9d599b7c24ddf920822b261d81c51a5964ef8e0e5ed9b2b12dc64541c5949b6a898d965e107f43261964e8c29a0
   languageName: node
   linkType: hard
 
