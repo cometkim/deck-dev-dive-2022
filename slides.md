@@ -117,7 +117,7 @@ layout: center
 
 <p>
 
-어제 보니까 동적타입언어(Clojure)도 좋던데요 🤔
+어제 보니까 _동적타입언어(Clojure)_ 도 좋던데요 🤔
 
 </p>
 
@@ -714,3 +714,9 @@ layout: intro
 ---
 
 # Example: 7GUIs
+
+---
+layout: center
+---
+
+https://github.com/cometkim/deck-dev-dive-2022/tree/main/examples
