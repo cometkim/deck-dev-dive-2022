@@ -1,0 +1,17 @@
+{
+  "name": "your-project-name",
+  "sources": [
+    {
+      "dir": "examples",
+      "subdirs": true
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "bs-dependencies": []
+}

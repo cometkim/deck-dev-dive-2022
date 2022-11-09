@@ -1,0 +1,29 @@
+<div>
+  <input id="count" type="number" readonly>
+  <button id="increase">count</button>
+</div>
+
+<script type="importmap">
+  {
+    "imports": {
+      "rescript/": "/node_modules/rescript/"
+    }
+  }
+</script>
+
+<script type="module">
+  import { Program, initialState } from './counter.bs.js';
+
+  let $count = document.getElementById('count');
+  let $button = document.getElementById('increase');
+
+  let onUpdate = (_, nextState) => {
+    $count.value = nextState.count;
+  };
+  onUpdate(initialState, initialState);
+
+  let program = Program.make(onUpdate);
+  $button.onclick = () => {
+    program = Program.increase(program);
+  };
+</script>

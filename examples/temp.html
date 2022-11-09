@@ -1,0 +1,35 @@
+<div>
+  Celcius: <input id="ce" type="number">
+  Fahrenheit: <input id="fa" type="number">
+</div>
+
+<script type="importmap">
+  {
+    "imports": {
+      "rescript/": "/node_modules/rescript/"
+    }
+  }
+</script>
+
+<script type="module">
+  import { Program, initialState } from './temp.bs.js';
+
+  let $ce = document.getElementById('ce');
+  let $fa = document.getElementById('fa');
+
+  let onUpdate = (_, nextState) => {
+    $ce.value = nextState.celsius;
+    $fa.value = nextState.fahrenheit;
+  };
+  onUpdate(initialState, initialState);
+
+  let program = Program.make(onUpdate);
+  $ce.onchange = (e) => {
+    let ce = e.currentTarget.value;
+    program = Program.updateCelsius(program, ce);
+  };
+  $fa.onchange = (e) => {
+    let fa = e.currentTarget.value;
+    program = Program.updateFahrenheit(program, fa);
+  };
+</script>

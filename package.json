@@ -1,0 +1,24 @@
+{
+  "name": "deck-dev-dive-2022",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export",
+    "examples": "serve",
+    "res:build": "rescript",
+    "res:start": "rescript build -w"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.36.10",
+    "@slidev/theme-apple-basic": "^0.20.0",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "rescript": "^10.0.1",
+    "slidev-theme-geist": "^0.8.1"
+  },
+  "devDependencies": {
+    "serve": "^14.1.1"
+  },
+  "packageManager": "yarn@3.2.4"
+}

@@ -1,0 +1,17 @@
+.DS_Store
+*.log
+*.local
+*.bs.js
+
+node_modules/
+dist/
+lib/
+/index.html
+
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
