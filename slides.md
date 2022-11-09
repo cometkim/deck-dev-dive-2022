@@ -1,7 +1,7 @@
 ---
 theme: apple-basic
 layout: intro-image
-image: ./images/deck-cover.png
+image: /deck-cover.png
 highlighter: shiki
 lineNumbers: false
 drawings:
@@ -648,7 +648,7 @@ layout: center
 
 ---
 layout: intro-image
-image: ./images/jit-opts.png
+image: /jit-opts.png
 ---
 
 <!--
