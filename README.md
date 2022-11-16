@@ -1,11 +1,7 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# TDD: Type-Driven Development
 
-To start the slide show:
+Dev Dive 2022 이벤트 세션 **[내 코드의 품질을 높여주는 Type-Driven Development](https://youtu.be/M3pMCZqPvzI)** 장표입니다.
 
-- `npm install`
-- `npm run dev`
-- visit http://localhost:3030
+----
 
-Edit the [slides.md](./slides.md) to see the changes.
-
-Learn more about Slidev on [documentations](https://sli.dev/).
+Built with [Slidev](https://sli.dev/)
