@@ -262,7 +262,7 @@ class: text-center
 </p>
 
 ```js
-let program = a(b(c(...)));
+let program x = a(b(c(x)));;
 ```
 
 <style>
