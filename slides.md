@@ -29,9 +29,9 @@ fonts:
     </figcaption>
   </figure>
 
+  - [Twitter (@KrComet)](https://twitter.com/KrComet) / [GitHub (@cometkim)](https://github.com/cometkim)
   - 당근마켓 웹 프론트엔드 개발자
   - [Reason Seoul](https://twitter.com/reasonseoul) 커뮤니티 오거나이저
-  - [Twitter (@KrComet)](https://twitter.com/KrComet) / [GitHub (@cometkim)](https://github.com/cometkim)
 </div>
 
 <style>
