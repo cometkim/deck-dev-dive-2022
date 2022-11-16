@@ -57,6 +57,7 @@ fonts:
     </figcaption>
   </figure>
 
+  - [Twitter (@ReasonSeoul)](https://twitter.com/ReasonSeoul) / [GitHub (@reason-seoul)](https://github.com/reason-seoul) / [Discord](https://discord.com/invite/RzShCNp)
   - ML-family (Reason / OCaml / ReScript)
   - 함수형 프로그래밍, 프로그래밍 언어론
   - React, GraphQL, 프론트엔드 개발
